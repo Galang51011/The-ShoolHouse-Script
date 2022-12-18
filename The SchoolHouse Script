@@ -660,7 +660,67 @@ game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args
 }
 
 game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+    local args = {
+    [1] = "B-Soda"
+}
 
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+     local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+ 
 end)
 Section:NewButton("", "", function()
     print("Clicked")
