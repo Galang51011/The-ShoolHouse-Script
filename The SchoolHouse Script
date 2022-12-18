@@ -52,675 +52,541 @@ Section:NewSlider("WalkSpeed", "Speed Your Walk", 20, 0, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 Section:NewButton("Crash Game", "Crash Game With BSoda", function()
-        local args = {
-    [1] = "B-Soda"
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
 }
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-        local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-    local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
-
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
-     local args = {
-    [1] = "B-Soda"
-}
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
 
-game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
- 
 end)
 Section:NewButton("", "", function()
     print("Clicked")
