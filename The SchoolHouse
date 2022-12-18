@@ -1,0 +1,72 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("The ShoolHouse", "DarkTheme")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("All Hack")
+Section:NewButton("Get Notebooks", "Get 1 notebook", function()
+local args = {
+    [1] = "Pass",
+    [2] = workspace.Map.MapData.Notebooks.Notebook
+}
+
+game:GetService("ReplicatedStorage").GameEvents.Notebook:FireServer(unpack(args))
+
+end)
+Section:NewButton("BSoda to baldi", "BSoda to baldi for 15 Sec", function()
+    local args = {
+    [1] = "B-Soda"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.ShootSoda:FireServer(unpack(args))
+
+end)
+Section:NewButton("Skip jumprope", "Skipping jumprope from Playtime", function()
+    game:GetService("ReplicatedStorage").GameEvents.CutJumpRope:FireServer()
+
+end)
+Section:NewButton("Skip school liar", "Skip from school liar", function()
+    local args = {
+    [1] = "53938282"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.FreePlayerFromLair:FireServer(unpack(args))
+
+end)
+Section:NewButton("Sent to detention", "Teleport to detention for 15 sec", function()
+    local args = {
+    [1] = "56345345"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.SafezoneDetention:FireServer(unpack(args))
+
+end)
+Section:NewButton("Abilities Infinite Stamina", "Unlimited Stamina", function()
+    local args = {
+    [1] = "StudentAbilities",
+    [2] = "Infinite Stamina"
+}
+
+game:GetService("ReplicatedStorage").GameEvents.AbilityChosen:FireServer(unpack(args))
+
+end)
+Section:NewSlider("WalkSpeed", "Speed Your Walk", 20, 0, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section:NewButton("", "", function()
+    print("Clicked")
+end)
+Section:NewButton("", "", function()
+    print("Clicked")
+end)
+Section:NewButton("", "", function()
+    print("Clicked")
+end)
+Section:NewButton("", "", function()
+    print("Clicked")
+end)
+Section:NewButton("", "", function()
+    print("Clicked")
+end)
+Section:NewButton("", "", function()
+    print("Clicked")
+end)
+
