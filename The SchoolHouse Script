@@ -22,7 +22,7 @@ end)
 
 _G_LoopLair = false
 
-Section:NewToggle("Free All Player From School Lair", "Free All Player From School Lair", function(va)
+Section:NewToggle("Auto Free All Player From School Lair", "Auto Free All Player From School Lair", function(va)
 	if va then
 		_G_LoopLair = true
 		while _G_LoopLair do wait()
