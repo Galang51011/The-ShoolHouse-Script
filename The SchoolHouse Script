@@ -41,7 +41,7 @@ local playerlist = {}
 
 for i,v in pairs(game:GetService("Players"):GetPlayers()) do
 	if v ~= player then
-		table.insert(playerlist,v)
+		table.insert(playerlist,v.Name)
 	end
 end
 
@@ -50,7 +50,7 @@ local target_dropdown:Player = nil
 local update_dropdownEvent = Instance.new("BindableEvent",workspace)
 
 local dropdown_player = Section:NewDropdown("Player List", "All Player",playerlist,function(currentOption)
-	target_dropdown = currentOption
+	target_dropdown = game:GetService("Players"):FindFirstChild(currentOption)
 	update_dropdownEvent:Fire()
 end)
 
