@@ -64,6 +64,10 @@ local button_killtarget = Section:NewButton("Kill Unknown","Kill Target",functio
 		if head then
 			game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",head)
 		end
+		local torso = character_target:FindFirstChild("Torso")
+		if torso then
+			game.ReplicatedStorage.GameEvents.Teleport:FireServer(torso)
+		end
 	end
 end)
 
@@ -74,6 +78,10 @@ local button_killall = Section:NewButton("Kill All","Kill All Players",function(
 			local head = character_target:FindFirstChild("Head")
 			if head then
 				game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",head)
+			end
+			local torso = character_target:FindFirstChild("Torso")
+			if torso then
+				game.ReplicatedStorage.GameEvents.Teleport:FireServer(torso)
 			end
 		end
 	end
@@ -87,6 +95,10 @@ local button_killothers = Section:NewButton("Kill Others","Kill Others Players",
 				local head = character_target:FindFirstChild("Head")
 				if head then
 					game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",head)
+				end
+				local torso = character_target:FindFirstChild("Torso")
+				if torso then
+					game.ReplicatedStorage.GameEvents.Teleport:FireServer(torso)
 				end
 			end
 		end
