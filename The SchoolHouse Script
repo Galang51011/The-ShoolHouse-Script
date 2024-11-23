@@ -66,9 +66,16 @@ local button_killtarget = Section:NewButton("Kill Unknown","Kill Target",functio
 		end
 		local torso = character_target:FindFirstChild("Torso")
 		if torso then
-			game.ReplicatedStorage.GameEvents.Teleport:FireServer(torso)
+			game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",torso)
 		end
 	end
+end)
+
+local button_kicktarget = Section:NewButton("Kick Unknown","Kick Target",function()
+	if target_dropdown == nil then
+		return
+	end
+	game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",target_dropdown)
 end)
 
 local button_killall = Section:NewButton("Kill All","Kill All Players",function()
@@ -81,9 +88,15 @@ local button_killall = Section:NewButton("Kill All","Kill All Players",function(
 			end
 			local torso = character_target:FindFirstChild("Torso")
 			if torso then
-				game.ReplicatedStorage.GameEvents.Teleport:FireServer(torso)
+				game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",torso)
 			end
 		end
+	end
+end)
+
+local button_kickall = Section:NewButton("Kick All","Kick All Players",function()
+	for _,tar in pairs(game:GetService("Players"):GetPlayers()) do
+		game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",tar)
 	end
 end)
 
@@ -98,9 +111,17 @@ local button_killothers = Section:NewButton("Kill Others","Kill Others Players",
 				end
 				local torso = character_target:FindFirstChild("Torso")
 				if torso then
-					game.ReplicatedStorage.GameEvents.Teleport:FireServer(torso)
+					game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",torso)
 				end
 			end
+		end
+	end
+end)
+
+local button_kiccothers = Section:NewButton("Kick Others","Kick Others Players",function()
+	for _,tar in pairs(game:GetService("Players"):GetPlayers()) do
+		if tar ~= player then
+			game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",tar)
 		end
 	end
 end)
