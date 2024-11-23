@@ -74,7 +74,7 @@ update_dropdownEvent.Event:Connect(function(...: any)
 end)
 
 game:GetService("Players").PlayerAdded:Connect(function(v: Player) 
-	table.insert(playerlist,v)
+	table.insert(playerlist,v.Name)
 	dropdown_player:Refresh(playerlist)
 end)
 
