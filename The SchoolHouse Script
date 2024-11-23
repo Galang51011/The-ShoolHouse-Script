@@ -118,7 +118,7 @@ local button_killothers = Section:NewButton("Kill Others","Kill Others Players",
 	end
 end)
 
-local button_kiccothers = Section:NewButton("Kick Others","Kick Others Players",function()
+local button_kickothers = Section:NewButton("Kick Others","Kick Others Players",function()
 	for _,tar in pairs(game:GetService("Players"):GetPlayers()) do
 		if tar ~= player then
 			game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",tar)
@@ -129,6 +129,10 @@ end)
 update_dropdownEvent.Event:Connect(function(...: any)
 	if target_dropdown ~= nil then
 		button_killtarget:UpdateButton("Kill ".. target_dropdown.Name)
+		button_kicktarget:UpdateButton("Kick ".. target_dropdown.Name)
+	else
+		button_killtarget:UpdateButton("Kill Unknown")
+		button_kicktarget:UpdateButton("Kick Unknown")
 	end
 end)
 
