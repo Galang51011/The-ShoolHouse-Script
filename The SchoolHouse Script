@@ -2,14 +2,17 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("The ShoolHouse", "DarkTheme")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("All Hack")
+
+local player = game:GetService("Players").LocalPlayer
+
 Section:NewButton("Get Notebooks", "Get 1 notebook", function()
 	game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",workspace.Map.MapData.Notebooks.Notebook)
 end)
 
 Section:NewButton("Get All Notebooks", "Get All notebook", function()
-    for i,v in pairs(workspace.Map.MapData.Notebooks:GetChildren()) do
-        game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",v)
-    end
+	for i,v in pairs(workspace.Map.MapData.Notebooks:GetChildren()) do
+		game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",v)
+	end
 end)
 
 Section:NewButton("Shoot BSoda", "Shoot BSoda To Baldi", function()
@@ -32,6 +35,47 @@ Section:NewToggle("Auto Free From School Lair", "Automatic Free From School Lair
 	else
 		_G_LoopLair = true
 	end
+end)
+
+local playerlist = {}
+
+for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+	if v ~= player then
+		table.insert(playerlist,v)
+	end
+end
+
+local target_dropdown:Player = nil
+
+local update_dropdownEvent = Instance.new("BindableEvent",workspace)
+
+local dropdown_player = Section:NewDropdown("Player List", "All Player",playerlist,function(currentOption)
+	target_dropdown = currentOption
+	update_dropdownEvent:Fire()
+end)
+
+local button_killtarget = Section:NewButton("Kill Unknown","Kill Target",function()
+	if target_dropdown == nil then
+		return
+	end
+	local character_target = target_dropdown.Character
+	if character_target then
+		local head = character_target:FindFirstChild("Head")
+		if head then
+			game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",head)
+		end
+	end
+end)
+
+update_dropdownEvent.Event:Connect(function(...: any)
+	if target_dropdown ~= nil then
+		button_killtarget:UpdateButton("Kill ".. target_dropdown.Name)
+	end
+end)
+
+game:GetService("Players").PlayerAdded:Connect(function(v: Player) 
+	table.insert(playerlist,v)
+	dropdown_player:Refresh(playerlist)
 end)
 
 local Tab = Window:NewTab("Setting")
