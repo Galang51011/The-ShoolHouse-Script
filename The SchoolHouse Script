@@ -81,14 +81,13 @@ end)
 
 local button_killothers = Section:NewButton("Kill Others","Kill Others Players",function()
 	for _,tar in pairs(game:GetService("Players"):GetPlayers()) do
-		if tar == player then
-			return
-		end
-		local character_target = tar.Character
-		if character_target then
-			local head = character_target:FindFirstChild("Head")
-			if head then
-				game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",head)
+		if tar ~= player then
+			local character_target = tar.Character
+			if character_target then
+				local head = character_target:FindFirstChild("Head")
+				if head then
+					game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",head)
+				end
 			end
 		end
 	end
