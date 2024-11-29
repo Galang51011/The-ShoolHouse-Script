@@ -52,6 +52,14 @@ Section:NewToggle("Auto Free From School Lair", "Automatic Free From School Lair
 	end
 end)
 
+Section:NewToggle("Skip Question", "Skip Pretest Math And Pop Quiz", function(va)
+	if va then
+		_G_SkipQuestion = true
+	else
+		_G_SkipQuestion = false
+	end
+end)
+
 local playerlist = {}
 
 for i,v in pairs(game:GetService("Players"):GetPlayers()) do
