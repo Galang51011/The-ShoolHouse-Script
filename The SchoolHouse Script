@@ -156,6 +156,14 @@ game:GetService("Players").PlayerAdded:Connect(function(v: Player)
 	dropdown_player:Refresh(playerlist)
 end)
 
+game:GetService("Players").PlayerRemoving:Connect(function(v: Player) 
+	local index = table.find(playerlist,v.Name)
+	if index ~= nil then
+		table.remove(playerlist,index)
+		dropdown_player:Refresh(playerlist)
+	end
+end)
+
 local Tab = Window:NewTab("Setting")
 local Section = Tab:NewSection("Setting")
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
