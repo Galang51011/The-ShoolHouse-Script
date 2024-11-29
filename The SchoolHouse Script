@@ -3,7 +3,22 @@ local Window = Library.CreateLib("The ShoolHouse", "DarkTheme")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("All Hack")
 
+_G_SkipQuestion = false
+
 local player = game:GetService("Players").LocalPlayer
+local gui = player:WaitForChild("PlayerGui")
+
+gui.ChildAdded:Connect(function(child: Instance) 
+	if child.Name == "ThinkPad" or child.Name == "ThinkPadFT" then
+		if _G_SkipQuestion then
+			repeat
+				wait()
+			until child:WaitForChild("Frame"):WaitForChild("LocalScript"):WaitForChild("Notebook").Value ~= nil
+			game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",child:WaitForChild("Frame"):WaitForChild("LocalScript"):WaitForChild("Notebook").Value)
+			child:Destroy()
+		end
+	end
+end)
 
 Section:NewButton("Get Notebooks", "Get 1 notebook", function()
 	game.ReplicatedStorage.GameEvents.Notebook:FireServer("Pass",workspace.Map.MapData.Notebooks.Notebook)
