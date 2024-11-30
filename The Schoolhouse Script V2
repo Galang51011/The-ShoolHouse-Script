@@ -131,6 +131,33 @@ if workspace:FindFirstChild("Map") ~= nil and workspace:FindFirstChild("Map"):Fi
 	end)
 end
 
+Section:NewButton("Refresh","Refresh The List Items",function()
+	itemfolder = workspace:FindFirstChild("Map"):FindFirstChild("MapData"):FindFirstChild("Items")
+	itemlist = {}
+	for _,items in ipairs(itemfolder:GetChildren()) do
+		if items:IsA("BasePart") then
+			table.insert(itemlist,items.Name)
+		end
+	end
+
+	itemfolder.ChildAdded:Connect(function(child: Instance)
+		if child:IsA("BasePart") then
+			table.insert(itemlist,child.Name)
+			dropdown_items:Refresh(itemlist)
+		end
+	end)
+
+	itemfolder.ChildRemoved:Connect(function(child: Instance)
+		if child:IsA("BasePart") then
+			local index = table.find(itemlist,child.Name)
+			if index ~= nil then
+				table.remove(itemlist,index)
+				dropdown_items:Refresh(itemlist)
+			end
+		end
+	end)
+end)
+
 update_dropdownEvent.Event:Connect(function(...: any)
 	if targetitems ~= nil then
 		button_bringitems:UpdateButton("Get ".. targetitems.Name)
