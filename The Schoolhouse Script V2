@@ -136,47 +136,49 @@ if workspace:FindFirstChild("Map") ~= nil and workspace:FindFirstChild("Map"):Fi
 			end
 		end
 	end)
+	dropdown_items:Refresh(itemlist)
 end
 
-Section:NewButton("Refresh","Refresh The List Items",function()
-	if workspace:FindFirstChild("Map") ~= nil and workspace:FindFirstChild("Map"):FindFirstChild("MapData") ~= nil and workspace:FindFirstChild("Map"):FindFirstChild("MapData"):FindFirstChild("Items") ~= nil then
-		itemfolder = workspace:FindFirstChild("Map"):FindFirstChild("MapData"):FindFirstChild("Items")
-		for i,_ in ipairs(itemlist) do
-			table.remove(itemlist,i)
-		end
-		for _,items in ipairs(itemfolder:GetChildren()) do
-			if items:IsA("BasePart") then
-				table.insert(itemlist,items.Name)
-			end
-		end
-		if added ~= nil then
-			added:Disconnect()
-		end
-		if removing ~= nil then
-			removing:Disconnect()
-		end
+--Section:NewButton("Refresh","Refresh The List Items",function()
+--	if workspace:FindFirstChild("Map") ~= nil and workspace:FindFirstChild("Map"):FindFirstChild("MapData") ~= nil and workspace:FindFirstChild("Map"):FindFirstChild("MapData"):FindFirstChild("Items") ~= nil then
+--		itemfolder = workspace:FindFirstChild("Map"):FindFirstChild("MapData"):FindFirstChild("Items")
+--		for i,_ in ipairs(itemlist) do
+--			table.remove(itemlist,i)
+--		end
+--		for _,items in ipairs(itemfolder:GetChildren()) do
+--			if items:IsA("BasePart") then
+--				table.insert(itemlist,items.Name)
+--			end
+--		end
+--		if added ~= nil then
+--			added:Disconnect()
+--		end
+--		if removing ~= nil then
+--			removing:Disconnect()
+--		end
 
-		added = itemfolder.ChildAdded:Connect(function(child: Instance)
-			if child:IsA("BasePart") then
-				table.insert(itemlist,child.Name)
-				dropdown_items:Refresh(itemlist)
-			end
-		end)
+--		added = itemfolder.ChildAdded:Connect(function(child: Instance)
+--			if child:IsA("BasePart") then
+--				table.insert(itemlist,child.Name)
+--				dropdown_items:Refresh(itemlist)
+--			end
+--		end)
 
-		removing = itemfolder.ChildRemoved:Connect(function(child: Instance)
-			if child:IsA("BasePart") then
-				local index = table.find(itemlist,child.Name)
-				if index ~= nil then
-					table.remove(itemlist,index)
-					dropdown_items:Refresh(itemlist)
-				end
-			end
-		end)
-	else
-		itemlist = {}
-		dropdown_items:Refresh(itemlist)
-	end
-end)
+--		removing = itemfolder.ChildRemoved:Connect(function(child: Instance)
+--			if child:IsA("BasePart") then
+--				local index = table.find(itemlist,child.Name)
+--				if index ~= nil then
+--					table.remove(itemlist,index)
+--					dropdown_items:Refresh(itemlist)
+--				end
+--			end
+--	end)
+--	dropdown_items:Refresh(itemlist)
+--	else
+--		itemlist = {}
+--		dropdown_items:Refresh(itemlist)
+--	end
+--end)
 
 update_dropdownEvent.Event:Connect(function(...: any)
 	if targetitems ~= nil then
